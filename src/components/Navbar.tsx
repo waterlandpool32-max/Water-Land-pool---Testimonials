@@ -21,8 +21,8 @@ export default function Navbar() {
 
   const navLinks = [
     { name: t('nav_testimonials'), path: '/' },
-    { name: t('nav_services'), path: '/services' },
     { name: t('nav_portfolio'), path: '/portfolio' },
+    { name: t('nav_services'), path: '/services' },
     { name: t('nav_about'), path: '/about' },
     { name: t('nav_contact'), path: '/contact' },
   ];

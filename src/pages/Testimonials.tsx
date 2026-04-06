@@ -34,7 +34,7 @@ export default function Testimonials() {
   ];
 
   return (
-    <div className="pt-20">
+    <>
       <section className="relative bg-brand-dark py-32 text-white overflow-hidden">
         {/* Background Image with Overlay */}
         <div className="absolute inset-0 z-0">
@@ -145,6 +145,6 @@ export default function Testimonials() {
           </motion.div>
         </div>
       </section>
-    </div>
+    </>
   );
 }

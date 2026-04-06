@@ -10,13 +10,13 @@
 }
 
 @layer base {
-  body {
+  html, body, #root {
     @apply font-sans text-slate-900 bg-white overflow-x-hidden;
     scrollbar-width: none;
     -ms-overflow-style: none;
   }
   
-  body::-webkit-scrollbar {
+  html::-webkit-scrollbar, body::-webkit-scrollbar, #root::-webkit-scrollbar {
     display: none;
   }
   
